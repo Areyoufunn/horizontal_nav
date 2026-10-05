@@ -1,0 +1,34 @@
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 20px 40px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #eeeeee;
+    color: #464646;
+
+    border-bottom: 4px solid #eeeeee;
+}
+
+
+ul li a.active {
+    background-color: #45a29e;
+    color: white;
+    border-bottom: 4px solid #eeeeee;
+
+}
+
+ul li a:not(.active):hover {
+    background-color: #464646;
+    color: white;
+    border-bottom: 4px solid #45a29e;
+}
+
+
